@@ -22,7 +22,7 @@ class Shortner::ShortenedUrl
 
   def generate_unique_key
     self.unique_key = loop do
-      random_token = SecureRandom.hex(8)
+      random_token = SecureRandom.hex(6)
       break random_token unless Shortner::ShortenedUrl.where(unique_key: random_token).present?
     end
   end
