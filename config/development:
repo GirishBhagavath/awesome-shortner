@@ -1,0 +1,4 @@
+development:
+  url_domain: ''http://my-awesome-urlshortner.com''
+production:
+  url_domain: 'http://my-awesome-urlshortner.com'
