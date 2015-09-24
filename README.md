@@ -12,12 +12,13 @@ params:
 
 if its valid url it'll return 
 xml
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <shortened_url>
   <parsed_url>http://my-awesome-urlshortner.dev/7bb3f3226235</parsed_url>
   <url>http://stackoverflow.com/questions/6021372/best-way-to-create-unique-token-in-rails</url>
 </shortened_url>
-
+```
 json:
 
 {
